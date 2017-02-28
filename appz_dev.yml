@@ -1,5 +1,5 @@
 application:
- - app_name : CB Tomcat App test
+ - app_name : CB Tomcat App test1 
    app_business_name : MyApp-Ratings
    app_code  : Tom123
    app_cost_center : "1234567890"
@@ -7,7 +7,7 @@ application:
    
    
 build_setup :
- - build_major_minor_version : 3.0
+ - build_major_minor_version : 1.0
    artifact_name : Tomcat8.war
    artifacts_add_db : false
    artifacts_file_path : dist
