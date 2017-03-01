@@ -2,7 +2,7 @@ application:
  - app_name : CB Tomcat App test2 
    app_business_name : MyApp-Ratings
    app_code  : Tom123
-   app_cost_center : "1234567890"
+   app_cost_center : "123456789045"
    app_status  : active
    
    
@@ -48,7 +48,7 @@ application_ansible_setup:
  - ansi_inventory_file : hosts
    ansi_playbook : main.yml
    ansi_repo_host : https://gitlab.com/appzoob/AppZ-PlayBooks.git
-   ansi_repo_pwd : Test
+   ansi_repo_pwd : NA
    ansi_repo_tree_name : SXP_Tomcat
    ansi_repo_user_id : NA
    app_hosts : NA
