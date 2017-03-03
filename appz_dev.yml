@@ -1,5 +1,5 @@
 application:
- - app_name : CB Tomcat App test2 
+ - app_name : CB Tomcat Maven App 
    app_business_name : MyApp-Ratings
    app_code  : Tom123
    app_cost_center : "123456789"
@@ -7,21 +7,21 @@ application:
    
    
 build_setup :
- - build_major_minor_version : 1.1
-   artifact_name : Tomcat8.war
+ - build_major_minor_version : 11.4
+   artifact_name : AppZ-Services-V0.1.war
    artifacts_add_db : false
-   artifacts_file_path : dist
+   artifacts_file_path : 
    build_schedule_interval : 15 minutes
    build_start_seq_num : NA
    build_schedule_start_time : NA
    created_by : Systemid1
    docker_enabled : false
-   repo_file_name : build.xml
-   repo_file_path : build.xml
-   repo_host : https://gitlab.com/appzoob/Tomcat8.git
+   repo_file_name : pom.xml
+   repo_file_path : pom.xml
+   repo_host : https://gitlab.com/srivamc/AppZ-Services-V0.1.git
    repo_pwd : NA
-   repo_tool : ant
-   repo_tree_name : Tomcat8
+   repo_tool : Maven
+   repo_tree_name : AppZ-Services-V0.1
    repo_tree_type : master
    repo_type : git
    repo_user_id : appzoob
