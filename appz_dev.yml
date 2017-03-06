@@ -40,7 +40,7 @@ ansible_additional_aws_data :
    aws_instance_tag_Type: "APP Server"
    aws_instance_termination_tag: 'Tomcat Termination Server'
    aws_instance_tag_Environment: "Production"
-   aws_instance_volume_size: 20
+   aws_instance_volume_size: 10
    aws_instance_count: 1
    aws_deplo_env: DEV
    
