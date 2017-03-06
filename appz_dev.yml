@@ -10,7 +10,7 @@ build_setup :
  - build_major_minor_version : 11.4
    artifact_name : Tomcat8.war
    artifacts_add_db : false
-   artifacts_file_path : target
+   artifacts_file_path : dist
    build_schedule_interval : 15 minutes
    build_start_seq_num : NA
    build_schedule_start_time : NA
