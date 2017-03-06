@@ -2,7 +2,7 @@ application:
  - app_name : CB Tomcat Maven App 
    app_business_name : MyApp-Ratings
    app_code  : Tom123
-   app_cost_center : "123456789222334"
+   app_cost_center : "123456789"
    app_status  : active
    
    
