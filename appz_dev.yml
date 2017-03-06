@@ -18,7 +18,7 @@ build_setup :
    docker_enabled : false
    repo_file_name : pom.xml
    repo_file_path : pom.xml
-   repo_host : https://gitlab.com/srivamc/AppZ-Services-V0.1.git
+   repo_host : https://gitlab.com/appzoob/Tomcat8.git
    repo_pwd : NA
    repo_tool : Maven
    repo_tree_name : AppZ-Services-V0.1
