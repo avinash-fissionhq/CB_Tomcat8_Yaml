@@ -7,7 +7,7 @@ application:
    
    
 build_setup :
- - build_major_minor_version : 30.4
+ - build_major_minor_version : 10.0
    artifact_name : Tomcat8.war
    artifacts_add_db : false
    artifacts_file_path : dist
