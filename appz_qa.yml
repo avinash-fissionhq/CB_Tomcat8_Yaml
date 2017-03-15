@@ -1,0 +1,60 @@
+application:
+ - app_name : CB Tomcat App
+   app_business_name : MyApp-Ratings
+   app_code  : Tom123
+   app_cost_center : "123456789"
+   app_status  : active
+   
+   
+build_setup :
+ - build_major_minor_version : 30.4
+   artifact_name : Tomcat8.war
+   artifacts_add_db : false
+   artifacts_file_path : dist
+   build_schedule_interval : 15 minutes
+   build_start_seq_num : NA
+   build_schedule_start_time : NA
+   created_by : Systemid1
+   docker_enabled : false
+   repo_file_name : build.xml
+   repo_file_path : build.xml
+   repo_host : https://gitlab.com/appzoob/Tomcat8.git
+   repo_pwd : NA
+   repo_tool : ant
+   repo_tree_name : Tomcat8
+   repo_tree_type : master
+   repo_type : git
+   repo_user_id : appzoob
+   environment : DEV
+   domain_name : cloudbourne.co
+   
+ansible_additional_aws_data :
+ - aws_instance_keypair: "appz_product_dev"
+   aws_instance_keypair_path: "public_keys"
+   aws_instance_security_group: "sg-4cddb630"
+   aws_instance_type: "t2.micro"
+   aws_instance_image: "ami-b63769a1"
+   aws_instance_subnet_ids: "subnet-36a10e53"
+   aws_instance_region: "us-east-1"
+   aws_instance_tag_Name: "Tomcat Server"
+   aws_instance_tag_Type: "APP Server"
+   aws_instance_termination_tag: 'Tomcat Termination Server'
+   aws_instance_tag_Environment: "Production"
+   aws_instance_volume_size: 10
+   aws_instance_count: 1
+   aws_deplo_env: DEV
+   
+application_ansible_setup:
+ - ansi_inventory_file : hosts
+   ansi_playbook : main.yml
+   ansi_repo_host : https://gitlab.com/appzoob/AppZ-PlayBooks.git
+   ansi_repo_pwd : Test
+   ansi_repo_tree_name : SXP_Tomcat
+   ansi_repo_user_id : NA
+   app_hosts : NA
+   host_name : NA
+   
+release_properties:
+ - release_environment : DEV
+   release_property_name : db_user
+   release_property_value : admin
