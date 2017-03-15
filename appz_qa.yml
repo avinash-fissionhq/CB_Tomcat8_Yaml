@@ -36,9 +36,9 @@ ansible_additional_aws_data :
    aws_instance_image: "ami-0932686c"
    aws_instance_subnet_ids: "subnet-e8159181"
    aws_instance_region: "us-east-2"
-   aws_instance_tag_Name: "Tomcat Server"
-   aws_instance_tag_Type: "APP Server"
-   aws_instance_termination_tag: 'Tomcat Termination Server'
+   aws_instance_tag_Name: "Tomcat_Server"
+   aws_instance_tag_Type: "APP_Server"
+   aws_instance_termination_tag: 'Tomcat_Termination_Server'
    aws_instance_tag_Environment: "Production"
    aws_instance_volume_size: 10
    aws_instance_count: 1
