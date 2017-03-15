@@ -29,13 +29,13 @@ build_setup :
    domain_name : cloudbourne.co
    
 ansible_additional_aws_data :
- - aws_instance_keypair: "appz_product_dev"
+ - aws_instance_keypair: "new-appz-key"
    aws_instance_keypair_path: "public_keys"
-   aws_instance_security_group: "sg-4cddb630"
+   aws_instance_security_group: "sg-fba13a92"
    aws_instance_type: "t2.micro"
-   aws_instance_image: "ami-b63769a1"
-   aws_instance_subnet_ids: "subnet-36a10e53"
-   aws_instance_region: "us-east-1"
+   aws_instance_image: "ami-0932686c"
+   aws_instance_subnet_ids: "subnet-e8159181"
+   aws_instance_region: "us-east-2"
    aws_instance_tag_Name: "Tomcat Server"
    aws_instance_tag_Type: "APP Server"
    aws_instance_termination_tag: 'Tomcat Termination Server'
