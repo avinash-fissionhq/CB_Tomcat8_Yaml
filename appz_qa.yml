@@ -25,7 +25,7 @@ build_setup :
    repo_tree_type : master
    repo_type : git
    repo_user_id : appzoob
-   environment : DEV
+   environment : QA
    domain_name : cloudbourne.co
    
 ansible_additional_aws_data :
@@ -42,7 +42,7 @@ ansible_additional_aws_data :
    aws_instance_tag_Environment: "Production"
    aws_instance_volume_size: 10
    aws_instance_count: 1
-   aws_deplo_env: DEV
+   aws_deplo_env: QA
    
 application_ansible_setup:
  - ansi_inventory_file : hosts
@@ -55,6 +55,6 @@ application_ansible_setup:
    host_name : NA
    
 release_properties:
- - release_environment : DEV
+ - release_environment : QA
    release_property_name : db_user
    release_property_value : admin
