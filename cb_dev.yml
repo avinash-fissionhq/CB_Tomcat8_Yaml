@@ -1,0 +1,37 @@
+application:
+ - app_name : SnP Global Helix Rhel Sample Image
+   app_business_name : Cloud Services
+   app_code  : RHEL2017Q1
+   app_cost_center : "56991788412"
+   app_status  : active
+   
+build :
+ - version : 40.0 
+   artifacts_add_db : false
+   artifacts_file_path : target
+   build_schedule_interval : 15 minutes
+   build_start_seq_num : NA 
+   docker_enabled : false
+   build_file_name : pom.xml 
+   build_tool : maven 
+   build_notification_distrubution_list : NA
+
+deploy :
+ - zone : EWDC
+   environment : DEV
+   division : RATINGS
+   blueprint : RHEL7_EWDC_v1
+   instance_type : LARGE
+   port_to_expose :
+
+tags :
+ - MY_TAG : "Hello World"
+   MY_TAG2 : "Welcome to App-Z"
+
+properties :
+ - db_user : admin
+   db_pwd :
+   db_url : jdbc:oracle:thin@nano.spglobal.com:2728:nanodb
+   cleanup_on_start : false
+   __jvm_options__ : "-XX:NewSize=512M DisableExplicitGC -Xms2G -Xmx2G"
+
