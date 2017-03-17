@@ -17,7 +17,7 @@ build :
    build_notification_distrubution_list : NA
 
 deploy :
- - zone : EAST1A
+ - zone : EWDC
    environment : DEV
    division : RATINGS
    blueprint : RHEL7_EWDC_v1
