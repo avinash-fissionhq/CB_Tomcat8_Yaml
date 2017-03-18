@@ -2,5 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>CB_Tomcat8_Yaml</groupId>
   <artifactId>Tomcat8</artifactId>
+  <version></version>
   <packaging>war</packaging>
 </project>
