@@ -10,7 +10,7 @@ build_setup :
  - build_major_minor_version : 30.4
    artifact_name : Tomcat8.war
    artifacts_add_db : false
-   artifacts_file_path : dist
+   artifacts_file_path : target
    build_schedule_interval : 15 minutes
    build_start_seq_num : NA
    build_schedule_start_time : NA
@@ -18,9 +18,9 @@ build_setup :
    docker_enabled : false
    repo_file_name : build.xml
    repo_file_path : build.xml
-   repo_host : https://gitlab.com/appzoob/Tomcat8.git
+   repo_host : https://github.com/Cloudbourne/CB_Tomcat8_Yaml.git
    repo_pwd : NA
-   repo_tool : ant
+   repo_tool : maven
    repo_tree_name : Tomcat8
    repo_tree_type : master
    repo_type : git
