@@ -16,8 +16,8 @@ build_setup :
    build_schedule_start_time : NA
    created_by : Systemid1
    docker_enabled : false
-   repo_file_name : build.xml
-   repo_file_path : build.xml
+   repo_file_name : pom.xml
+   repo_file_path : pom.xml
    repo_host : https://github.com/Cloudbourne/CB_Tomcat8_Yaml.git
    repo_pwd : NA
    repo_tool : maven
