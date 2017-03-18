@@ -8,7 +8,7 @@ application:
    
 build_setup :
  - build_major_minor_version : 30.4
-   artifact_name : Tomcat8.war
+   artifact_name : CB_Tomcat8_Yaml-0.0.1-SNAPSHOT.war
    artifacts_add_db : false
    artifacts_file_path : target
    build_schedule_interval : 15 minutes
