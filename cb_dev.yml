@@ -20,7 +20,7 @@ deploy :
  - zone : EAST1A
    environment : DEV
    division : RATINGS
-   blueprint : RHEL7_EWDC_v1
+   blueprint : RHEL7_v1
    instance_type : LARGE
    port_to_expose :
 
